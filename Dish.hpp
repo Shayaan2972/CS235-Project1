@@ -1,3 +1,16 @@
+// Shayaan Mohammed
+// Shayaanuddin.Mohammed45@myhunter.cuny.edu
+// Date: Sept 16, 2024
+// The Dish class must have the following private member variables:
+// - std::string name_: The name of the dish.
+// - std::vector<std::string> ingredients_: A list of ingredients used in the dish. 
+// - int prep_time_ : The preparation time in minutes.
+// - price_: The price of the dish.
+// - CuisineType cuisine_type_ : The cuisine type of the dish.
+// Along with various methods for the dish class
+
+
+
 #ifndef DISH_HPP
 #define DISH_HPP
 #include <string>

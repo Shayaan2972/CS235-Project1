@@ -1,3 +1,8 @@
+// Shayaan Mohammed
+// Shayaanuddin.Mohammed45@myhunter.cuny.edu
+// Date: Sept 16, 2024
+// This cpp file contains a default and parametrized constructor along with various methods for the dish class.
+
 #include "Dish.hpp"
 #include <iostream>
 #include <iomanip>
@@ -109,6 +114,7 @@
      * @return The cuisine type of the dish in string form.
      */
     std::string Dish::getCuisineType() const{
+        // Converts enum type to strings
         if (cuisine_type_ == ITALIAN){
             return "ITALIAN";
         }
