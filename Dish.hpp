@@ -4,6 +4,9 @@
 #include <vector>
 
 class Dish{
+    
+    public:
+
     enum CuisineType{
         ITALIAN,
         MEXICAN,
@@ -14,7 +17,6 @@ class Dish{
         OTHER
     };
 
-    public:
     /**
      * Default constructor.
      * Initializes all private members with default values:
@@ -40,7 +42,7 @@ class Dish{
     parameters.
     */
 
-    Dish(std::string& name_, std::vector<std::string>& ingredients_, int prep_time_, double price_, CuisineType cuisine_type_);
+    Dish(const std::string& name, const std::vector<std::string>& ingredients = {} , int prep_time = 0, double price = 0.0, CuisineType cuisine_type_ = OTHER);
 
 
      /**

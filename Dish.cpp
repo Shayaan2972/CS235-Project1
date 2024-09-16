@@ -25,7 +25,7 @@
     * @post The private members are set to the values of the corresponding
     parameters.
     */
-    Dish::Dish(std::string& name, std::vector<std::string>& ingredients, int prep_time, double price, CuisineType cuisine_type) : name_(name), ingredients_(ingredients), prep_time_(prep_time), price_(price), cuisine_type_ (cuisine_type) {}
+    Dish::Dish(const std::string& name, const std::vector<std::string>& ingredients, int prep_time, double price, CuisineType cuisine_type) : name_(name), ingredients_(ingredients), prep_time_(prep_time), price_(price), cuisine_type_ (cuisine_type) {}
 
 
      /**
